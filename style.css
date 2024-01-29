@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+body {
+  height: 100vh;
+  margin: 0;
+
+}
+
+.container {
+  position: relative;
+  width: 100px;
+  height: auto;
+}
+
+.container :nth-child(1){
+    left: 163px;
+    top: 30px;
+}
+.container :nth-child(2){
+    left: 169px;
+    top: 450px;
+}
+.container :nth-child(3){
+    right: -1231px;
+    top: 69px;
+}
+.container :nth-child(4){
+    left: 437px;
+    top: 285px;
+}
+.container :nth-child(5){
+    float: right;
+    right: -1188px;
+    top: 480px;
+}
+.container :nth-child(6){
+    left: 984px;
+    top: 200px;
+}
+.container :nth-child(7){
+    left: 813px;
+    top: 450px;
+}
+.container :nth-child(8){
+    left: 651px;
+    top: 101px;
+}
+.bubble {
+    position: relative;
+    margin: 0 auto;
+}
+
+h2 {
+    color: white;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    text-shadow: 5px 5px 5px rgb(65, 64, 64);
+    top: 200px;
+    left: 40%;
+    z-index: 99;
+   
+}
+
+
+.drop {
+  position: absolute;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 51% 49% 48% 52% / 62% 44% 56% 38%;
+  opacity: 0.5;
+  border: 2px solid #ffffff;
+}
+.drop::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #eff0f1;
+  border-radius: 51% 49% 48% 52% / 62% 44% 56% 38%;
+  box-shadow: -20px 30px 16px #2779af, -40px 60px 32px #1b6799 , inset -6px 6px 10px #e4e4d0, inset 2px 6px 10px #ffffff, inset 20px -20px 22px white, inset 40px -40px 44px #e7e8e9;
+}
+.drop::after {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: #ffffff;
+  border-radius: 44% 56% 46% 54% / 36% 50% 50% 64%;
+  left: 30px;
+  top: 10px;
+  box-shadow: 16px 40px 0 -10px white;
+  opacity: 0.8;
+}
+.drop2 {
+  border-radius: 46% 50% 39% 54% / 56% 57% 50% 50%;
+}
+.drop2::before {
+    border-radius: 46% 50% 39% 54% / 56% 57% 50% 50%;
+}
